@@ -21,7 +21,7 @@ font-family: 'Roboto', sans-serif;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid red;
+  outline: 2px solid black;
 }
 
 /*--------------header---------------------*/
@@ -282,7 +282,7 @@ color: #FFFFFF;
 /*--------portfolio-------*/
 
 .portfolio {
-  margin-top: 94px;
+  margin-top: 90px;
   margin-bottom: 50px;
 }
 
@@ -307,6 +307,10 @@ color: rgba(0, 0, 0, 0.12);
 
 /*----------------photo----------------*/
 
+.photo {
+  margin-top: 50px;
+  margin-bottom: 94px;
+}
 .photo-title {
 font-style: Bold;
 font-size: 18px;
@@ -316,6 +320,8 @@ align: Left;
 vertical-align: Top;
 letter-spacing: 6%;
 color: #212121;
+padding-top: 20px;
+padding-bottom: 4px;
 }
 
 .photo-sec-title {
@@ -327,4 +333,5 @@ color: #212121;
   vertical-align: Top;
   letter-spacing: 3%;
   color: #757575;
+  padding-bottom: 20px;
 }
