@@ -1,0 +1,276 @@
+:root {
+  --blue-text-colour: #2196F3;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.body {
+font-family: 'Roboto', sans-serif;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*--------------header---------------------*/
+
+.header-logo {
+font-family: Raleway;
+font-style: Bold;
+font-size: 26px;
+line-height: calc(31 / 26);
+line-height: 100%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 3%;
+display: inline-block;
+color:#2196F3;
+}
+.header-studio {
+font-family: Raleway;
+font-style: Bold;
+font-size: 26px;
+line-height: calc(31 / 26);
+line-height: 100%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 3%;
+display: inline-block;
+color: #212121;
+}
+
+
+.header-list {
+font-size: 14px;
+line-height: calc(16 / 14);
+line-height: 100%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 2%;
+}
+
+.header-link-studio{
+  color: #2196F3;
+}
+
+.header-link {  
+color: #212121;
+}
+
+.header-mail {
+color:#2196F3;
+}
+
+.header-tel {
+  color:#757575 ;
+}
+
+
+/*--------------solution---------------------*/
+
+.solution {
+  background: #2F303A;
+}
+
+.solution-title {
+color: #FFFFFF;
+font-size: 44px;
+line-height: calc(60 / 44);
+line-height: 116%;
+align: Center;
+vertical-align: Top;
+letter-spacing: 6%;
+}
+
+.solution-btn {
+background-color: #2196F3;
+color: #FFFFFF; 
+effect: Drop shadow;
+radius: 4px;
+offset: 0px, 4px;
+}
+
+/*-------------grade---------------------*/
+
+.grade-title{
+  color:#212121;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+
+.grade-aft-title {
+color: #757575;
+font-style: Regular;
+font-size: 14px;
+line-height: calc(24 / 14);
+line-height: 146%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 3%;
+}
+
+/*-----------------whatdo_________________*/
+
+.whatdo-title {
+  color: #212121;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 1.16;
+  line-height: 100%;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  }
+  
+  /*------------team-----------------*/
+
+
+.team-title {
+  font-style: Bold;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  line-height: 100%;
+  align:-Center;
+  vertical-align: Top;
+  letter-spacing: 3%;
+}
+
+.team-pre-title {
+color: #212121;
+font-style: Medium;
+font-size: 16px;
+line-height: calc(19 / 16);
+line-height: 100%;
+align: Center;
+vertical-align: Top;
+letter-spacing: 3%;
+}
+
+.team-aft-title{
+color: #757575;
+font-style: 'Regular';
+font-size: 16px;
+line-height:calc(19 / 16);
+line-height: 100%;
+align: Center;
+vertical-align: Top;
+letter-spacing: 3%;
+}
+/*------------footer-------------*/
+
+.footer {
+  background-color: #2F303A;
+}
+
+.footer-logo {
+font-family: 'Raleway', sans-serif;
+font-style: Bold;
+font-size: 26px;
+line-height: calc(31 / 26);
+line-height: 100%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 3%;
+color:#2196F3;
+}
+
+.footer-studio {
+font-family: 'Raleway', sans-serif;
+font-style: Bold;
+font-size: 26px;
+line-height: calc(31 / 26);
+line-height: 100%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 3%;
+color: #FFFFFF;
+}
+
+.footer-map {
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 1.46;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: #2196F3;
+}
+
+.footer-tel {
+  font-family: 'Roboto';
+  font-style: Regular;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-mail {
+  font-family: 'Roboto';
+  font-style: Regular;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  line-height: 100%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+
+/*--------portfolio-------*/
+
+
+
+.portfolio-link {
+  font-style: Medium;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  line-height: 139%;
+  align: Center;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: #212121;
+}
+.portfolio-item {
+effect-Style: shadow-middle;
+effect: Drop shadow;
+radius: 2px;
+offset: 0px, 2px;
+color: rgba(0, 0, 0, 0.12);
+}
+
+
+.photo-title {
+font-style: Bold;
+font-size: 18px;
+line-height: calc(36 / 18);
+line-height: 171%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 6%;
+color: #212121;
+}
+
+.photo-sec-title {
+  font-style: Regular;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  line-height: 160%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: #757575;
+}
