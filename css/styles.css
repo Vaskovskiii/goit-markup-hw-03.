@@ -281,7 +281,10 @@ color: #FFFFFF;
 
 /*--------portfolio-------*/
 
-
+.portfolio {
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
 
 .portfolio-link {
   font-style: Medium;
@@ -292,6 +295,7 @@ color: #FFFFFF;
   vertical-align: Top;
   letter-spacing: 3%;
   color: #212121;
+
 }
 .portfolio-item {
 effect-Style: shadow-middle;
@@ -301,6 +305,7 @@ offset: 0px, 2px;
 color: rgba(0, 0, 0, 0.12);
 }
 
+/*----------------photo----------------*/
 
 .photo-title {
 font-style: Bold;
