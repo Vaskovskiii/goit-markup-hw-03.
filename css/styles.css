@@ -2,9 +2,7 @@
   --blue-text-colour: #2196F3;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-}
+
 
 .body {
 font-family: 'Roboto', sans-serif;
@@ -18,8 +16,20 @@ font-family: 'Roboto', sans-serif;
   text-decoration: none;
 }
 
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  outline: 2px solid red;
+}
+
 /*--------------header---------------------*/
 
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .header-logo {
 font-family: Raleway;
 font-style: Bold;
@@ -75,7 +85,9 @@ color:#2196F3;
 /*--------------solution---------------------*/
 
 .solution {
-  background: #2F303A;
+  background: #2F303A; 
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .solution-title {
@@ -86,6 +98,11 @@ line-height: 116%;
 align: Center;
 vertical-align: Top;
 letter-spacing: 6%;
+width: 696px;
+padding-left: 4.56px;
+padding-right: 4.56px;
+margin: 0 auto;
+padding-bottom: 30px;
 }
 
 .solution-btn {
@@ -94,9 +111,19 @@ color: #FFFFFF;
 effect: Drop shadow;
 radius: 4px;
 offset: 0px, 4px;
+width: 200px;
+padding-right: 7px;
+padding-left: 7px;
+margin: 0 auto;
 }
 
 /*-------------grade---------------------*/
+
+
+.grade {
+padding-top: 94px;
+padding-bottom: 94px;
+}
 
 .grade-title{
   color:#212121;
@@ -117,9 +144,15 @@ line-height: 146%;
 align: Left;
 vertical-align: Top;
 letter-spacing: 3%;
+padding-top: 10px;
 }
 
 /*-----------------whatdo_________________*/
+
+.whatdo {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
 
 .whatdo-title {
   color: #212121;
@@ -129,11 +162,20 @@ letter-spacing: 3%;
   line-height: 100%;
   vertical-align: Top;
   letter-spacing: 3%;
+  padding-bottom: 50px;
+  width: 376px;
+  padding-left: 6.12px;
+  padding-right: 6.12px;
+  margin: 0 auto;
+
   }
   
   /*------------team-----------------*/
 
-
+.team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .team-title {
   font-style: Bold;
   font-size: 36px;
@@ -142,6 +184,11 @@ letter-spacing: 3%;
   align:-Center;
   vertical-align: Top;
   letter-spacing: 3%;
+  width: 264px;
+  padding-bottom: 50px;
+  padding-left: 6.68px;
+  padding-right: 6.68px;
+  margin: 0 auto;
 }
 
 .team-pre-title {
@@ -153,6 +200,8 @@ line-height: 100%;
 align: Center;
 vertical-align: Top;
 letter-spacing: 3%;
+padding-bottom: 10px;
+padding-top: 30px;
 }
 
 .team-aft-title{
@@ -164,11 +213,14 @@ line-height: 100%;
 align: Center;
 vertical-align: Top;
 letter-spacing: 3%;
+padding-bottom: 30px;
 }
 /*------------footer-------------*/
 
 .footer {
   background-color: #2F303A;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .footer-logo {
@@ -181,6 +233,7 @@ align: Left;
 vertical-align: Top;
 letter-spacing: 3%;
 color:#2196F3;
+padding-bottom: 20px;
 }
 
 .footer-studio {
@@ -193,40 +246,36 @@ align: Left;
 vertical-align: Top;
 letter-spacing: 3%;
 color: #FFFFFF;
+padding-bottom: 20px;
+}
+
+
+.footer-link {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  line-height: 146%;
+  align: Left;
+  vertical-align: Top;
+  letter-spacing: 3%;
+  color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 9px;
+  padding-top: 9px;
 }
 
 .footer-map {
-  font-style: Regular;
-  font-size: 14px;
-  line-height: 1.46;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 3%;
-  color: #2196F3;
+font-size: 14px;
+line-height: calc(24 / 14);
+line-height: 146%;
+align: Left;
+vertical-align: Top;
+letter-spacing: 3%;
+color: #FFFFFF;
 }
 
-.footer-tel {
-  font-family: 'Roboto';
-  font-style: Regular;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  line-height: 100%;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 3%;
-  color: rgba(255, 255, 255, 0.6);
-}
 
-.footer-mail {
-  font-family: 'Roboto';
-  font-style: Regular;
-  font-size: 14px;
-  line-height: calc(24 / 14);
-  line-height: 100%;
-  align: Left;
-  vertical-align: Top;
-  letter-spacing: 3%;
-  color: rgba(255, 255, 255, 0.6);
+
+.footer-link:hover {
+  color: var(--blue-text-colour);
 }
 
 
