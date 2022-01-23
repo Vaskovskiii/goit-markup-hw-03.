@@ -99,7 +99,10 @@ font-family: 'Roboto', sans-serif;
   background: #2F303A; 
   padding-top: 200px;
   padding-bottom: 200px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/img.png);
 }
+
+
 
 .solution-title {
   font-size: 44px;
