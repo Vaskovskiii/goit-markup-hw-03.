@@ -345,6 +345,7 @@ margin-right: 30px;
 
 
 .portfolio-btn {
+  border: inherit;
   background: #F5F4FA;
   border-radius: 4px;
   min-height: 38px;
