@@ -172,7 +172,7 @@ padding-bottom: 94px;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
-  padding-bottom: 10px;
+  margin-bottom: 10px;
   
   color: #212121;
 }
@@ -228,7 +228,7 @@ margin-right: 30px;
   line-height: calc(42 / 36);
   text-align: center;
   letter-spacing: 0.03em;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   
   color: #212121;
 }
@@ -259,8 +259,8 @@ margin-right: 30px;
 
 .footer {
   background-color: #2F303A;
-  margin-bottom: 60px;
-  matgin-top: 60px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 .footer-logo {
@@ -283,11 +283,11 @@ margin-right: 30px;
 }
 
 .footer-studio {
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
 .footer-item {
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .footer-mail {
@@ -335,7 +335,8 @@ margin-right: 30px;
 /*--------portfolio-------*/
 
 .portfolio {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-link1 {
@@ -344,12 +345,6 @@ margin-right: 30px;
   align-items: center;
 }
 
-.portfolio-item {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
 
 
 
@@ -372,6 +367,10 @@ margin-right: 30px;
   line-height: calc(26 / 16);
   letter-spacing: 0.03em; 
   text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 22px;
+  padding-right: 22px;
 
   color: #212121;
 
@@ -390,8 +389,8 @@ margin-right: 30px;
   padding-bottom: 20px;
   padding-top: 20px;
   width: 370px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
   outline: 1px solid #EEEEEE;
 }
 
@@ -428,6 +427,7 @@ margin-right: 30px;
 .portfolio-photo-link {
   display: flex;
   flex-wrap: wrap;
+
   margin-bottom: 94px;
 }
 
