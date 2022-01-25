@@ -431,7 +431,6 @@ margin-right: 30px;
 .portfolio-photo-link {
   display: flex;
   flex-wrap: wrap;
- 
 }
 
 .portfolio-photo-item:not(:nth-child(3n)) {
